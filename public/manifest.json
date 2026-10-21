@@ -1,0 +1,13 @@
+{
+  "name": "MediKeeper",
+  "short_name": "MediKeeper",
+  "description": "L'armoire à pharmacie de la famille, scannée en un clin d'œil",
+  "lang": "fr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#2f6b55",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

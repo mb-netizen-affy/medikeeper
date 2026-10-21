@@ -1,0 +1,21 @@
+{
+  "name": "medikeeper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MediKeeper — l'armoire à pharmacie de la famille, scannée en un clin d'œil",
+  "scripts": {
+    "dev": "next dev",
+    "dev:https": "next dev --experimental-https",
+    "build": "next build",
+    "start": "next start",
+    "meds": "node scripts/build-meds.mjs",
+    "test": "node --test lib/"
+  },
+  "dependencies": {
+    "@zxing/browser": "^0.2.1",
+    "@zxing/library": "^0.23.0",
+    "next": "^16.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
